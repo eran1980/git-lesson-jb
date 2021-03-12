@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="first_project.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="first_project.js"></script>
+    <title>my task board</title>
+</head>
+
+<body>
+    <h1>my task board</h1>
+    <div id="page1">
+        <form action="html_page">
+            <label>data misson</label>
+            <input type="text" name="data_mission" id="data"><br>
+            <br><label>target date</label>
+            <input type="date" name="target_date" value="" id="target_date"><br>
+            <br><label>time</label>
+            <input type="time" name="time" id="time" value=""><br>
+            <br>
+            <input type="button" name="save" value="save" class="btn btn-danger" onclick="saveButton()">
+            <input type="button" name="reset_button" value="reset" class="btn btn-primary" onclick="reset()">
+        </form>
+        <div id="notesContainer">
+        </div>
+</body>
+
+</html>

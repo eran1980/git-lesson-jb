@@ -1,0 +1,43 @@
+h1{ text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body { background-image: url(tile.jpg);
+    background-attachment: fixed;
+
+}
+#page1{
+background-image:url(formbg.jpg);
+background-position-x: center;
+text-align: center;
+size: auto;
+background-repeat:repeat-y;
+height: auto;
+}
+
+#notesContainer{
+    
+        /* background-image: url(notebg.png); */
+        background-repeat: no-repeat;
+        background-position: left top;
+        padding-top:95px;
+        margin-bottom:60px;
+        -webkit-animation-duration: 10s;
+        animation-duration: 10s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        size: auto;
+     
+     }
+     .taskNote {
+        min-height: 250px;
+        background-image: url(./notebg.png);
+        width: 200px;
+        position: relative;
+        float: left;
+    }
+
+ #data,#target_date,#time{
+     margin-right: 15%;
+ }
+ #data{margin-top: 2%;}
